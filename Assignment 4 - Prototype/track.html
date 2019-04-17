@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Track</title>
+<link rel="stylesheet" media="(max-width: 320px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 321px)" href="index.css">
+</head>
+<body>
+	<div class="navbar">
+	<a href="home.html" class="home">HOME</a><a href="login.html" class="logout">LOGOUT</a>
+	</div>
+	<div class="header2">
+		<img src="Track.png" alt="Track" class="logo3"/>
+	</div>
+	<div>
+		<p class="track">This page allows you to track your panic attacks according to what you believe caused them.<br><br>
+		Simply click on the circle above the appropriate list of causes in order to increase the tally.</p>
+	</div>
+	<div class="counterDiv">
+		<div>
+			<!--<button class="counter1" id="counter1"></button>-->
+			<input type="button" id="counter1" class="counter1" onclick="increase1()">
+			<ul class="causes">
+				<li><strong>Random</strong></li>
+				<li>Unknown</li>
+				<li><strong>Other</strong></li>
+			</ul>
+		</div>
+		<div>
+			<!--<button class="counter">0</button>-->
+			<input type="button" id="counter2" class="counter1" onclick="increase2()">
+			<ul class="causes">
+				<li>Grief</li>
+				<li><strong>Loss</strong></li>
+				<li>Break-Up</li>
+			</ul>
+		</div>
+		<div>
+			<!--<button class="counter">0</button>-->
+			<input type="button" id="counter3" class="counter1" onclick="increase3()">
+			<ul class="causes">
+				<li><strong>Stress</strong></li>
+				<li>Public<br>Speaking</li>
+			</ul>
+		</div>
+		<div>
+			<!--<button class="counter">0</button>-->
+			<input type="button" id="counter4" class="counter1" onclick="increase4()">
+			<ul class="causes">
+				<li>Confrontation</li>
+				<li><strong>Bullying</strong></li>
+				<li>Abuse</li>
+			</ul>
+		</div>
+	</div>
+	<div class="navButtons">
+		<a href="track.html" class="Track1Button">Track</a><a href="relax.html" class="Relax1Button">Relax</a> <a href="sendtodoctor.html" class="sendToDoc">Send to Doctor</a>
+	</div>
+	<!--<div class="navButtons2">
+		<a href="sendtodoctor.html" class="sendToDoc">Send to Doctor</a>
+	</div>-->
+	<script src="track.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Send To Doctor</title>
+<link rel="stylesheet" media="(max-width: 320px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 321px)" href="index.css">
+</head>
+<body>
+	<div class="navbar">
+	<a href="home.html" class="home">HOME</a><a href="login.html" class="logout">LOGOUT</a>
+	</div>
+	<br>
+	<form class="small">
+	<div class="form1A">
+		<label class = "form1">Full Name</label><input class="input2" id="input1"/>
+	</div><br>
+		<div class="form1B">
+		<label class = "form1">Time Period of Data (Day/Week/Month?)</label>
+		<textarea class="input4" name="Text2" cols="50" rows="3" placeholder="e.g. May 8th-10th 2018; January 2019" id="input2"></textarea>
+	</div><br>
+		<div class="form1B">
+		<label class = "form1">Most Common Symptoms</label>
+	</div>
+	<div class="checkboxes">
+		<input type="checkbox" class="box" id="checkbox1"><label class="checkLabel">Fast Heart Rate</label><br><br><br>
+		<input type="checkbox" class="box" id="checkbox2"><label class="checkLabel">Trembling</label><br><br><br>
+		<input type="checkbox" class="box" id="checkbox3"><label class="checkLabel">Shortness of Breath</label><br><br><br>
+		<input type="checkbox" class="box" id="checkbox4"><label class="checkLabel">Nausea</label><br><br><br>
+		<input type="checkbox" class="box" id="checkbox5"><label class="checkLabel">Sweating</label><br><br><br>
+		<input type="checkbox" class="box" id="checkbox6"><label class="checkLabel">Migraines/Dizziness</label><br><br>
+	</div>
+	<br>
+	<div class="form1B">
+		<label class = "form1">Additional Message</label><textarea class="input4" name="Text1" cols="40" rows="3" id="input3"></textarea>
+	</div>
+	</form>
+<div class="navButtons7">
+		<a href="track.html" class="Track1Button">Track</a><a href="relax.html" class="Relax1Button">Relax</a> <input onclick="change()" type="button" value="Send" id="myButton1" class="sendToDoc">
+	</div>
+	<!--<div class="navButtons8">
+		<!--<a href="sendtodoctor.html" class="sendToDoc" >Send</a>
+		
+		
+	</div>-->
+	<script src="send.js"></script>
+</body>
+</html>

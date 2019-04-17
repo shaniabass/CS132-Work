@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
+<link rel="stylesheet" media="(max-width: 320px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 321px)" href="index.css">
+</head>
+<body>
+	<div class="header">
+		<img src="TT.png" alt="TensionTracker" id="logo"/>
+	</div>
+	<br>
+	<div id="login">
+		<p id="p1">Welcome to TensionTracker. Please log in below to log a panic attack or take a 5 minute breather.
+		<br><br><strong>Take it easy and have a great day!</strong></p>
+	</div>
+	<br><br>
+	<div class="label1">
+		<label class = "label1a">Username   </label><input class="input1"/> 
+		<div class="label2">
+		<label class = "label2a">Password</label><input class="input1" type="password" id="pass-box"/>
+	</div>
+	<br>
+	<!--<div class="label2">
+		<label class = "label2a">Password</label><input class="input1" type="password" id="pass-box"/>
+	</div>-->
+	<div id="login1">
+		<a href="home.html" class="loginButton" onclick="return stopLogin();">Login</a>
+		<div id="pass-fill" class="error-message"></div>
+	</div>
+   	
+	<script src="login.js"></script>
+</body>
+</html>

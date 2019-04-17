@@ -1,0 +1,555 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: linear-gradient(to right, #43B8B5, #71C4E5);
+	   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 320px;
+	font-family: Verdana;
+}
+
+.header{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+  	position: fixed;
+	margin-left:110px;
+}
+
+#logo{
+	width: 85%;
+	margin-left: -10px;
+    height: auto;
+	align-self: center;
+	margin-top: 30%;
+	position: fixed;
+}
+
+#login{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	display: flex;
+	margin-top: 100px;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	position: fixed;
+	width:320px;
+	margin-left: 10px;
+	font-size: 5%;
+}
+
+#p1{
+	align-self: center;
+	font-size:12px;
+	color: white;
+	margin-top: 40px;
+	margin-right: 35px;
+}
+
+.label1{
+	display: flex;
+	/*margin-top: 400px;*/
+	margin-top: 220px;
+		text-align: center;
+	justify-content: center;
+	width: 100%;
+	align-content: center;
+	margin-left: -5px;
+}
+
+.label2{
+	display: flex;
+		text-align: center;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	align-content: center;
+	margin-top: 15%;
+	
+}
+
+.label1a{
+	color: white;
+	background-color: black;
+	padding:5px;
+	border-style: none;
+	font-size: 15px;
+	width: 125px;
+}
+
+.label2a{
+	color: white;
+	background-color: black;
+    text-align: center;
+	border-style: none;
+	font-size: 15px;
+	width: 125px;
+	padding: 5px;
+}
+
+.input1{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	width: 125px;
+}
+
+#login1{
+	display: flex;
+	width: 100%;
+	position: fixed;
+	align-content: center;
+	justify-content: center;
+}
+
+.loginButton{
+	align-self: center;
+	position: fixed;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: none;
+	font-size: 15px;
+	font-family: Verdana;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: -50px;
+}
+
+a:hover{
+	color: #43B8B5;
+}
+
+
+
+.header2{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+  	/*position: fixed;*/
+	
+}
+
+.logo2{
+	margin-top: 80px;
+	width: 250px;
+	margin-right: 10px;
+}
+
+
+
+.home1{
+	/*flex: 50%;*/
+	width: 300px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.home2{
+    /*flex: 50%;*/
+	width: 300px;
+	font-size: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	/*margin-left: 50px;*/
+}
+
+.homeB{
+	height: 20px;
+}
+
+.wrapper{
+	/*margin-top: 250px;*/
+	width: 200px;
+	margin-left: 3px;
+	display: wrapper;
+}
+
+.white{
+	color: black;
+}
+
+p{
+	color:white;
+}
+
+ul{
+	color: white;
+}
+
+.Track1Button{
+	align-self: center;
+	text-align: center;
+	background-color: black;
+	color: white;
+	-webkit-border-radius: 1em;
+	font-weight: bold;
+	border: none;
+	font-size: 10px;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	flex: 10%;
+	margin-right: 0px;
+}
+
+.Relax1Button{
+	align-self: center;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: none;
+	font-size: 10px;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	margin-left: 5px;
+	flex: 10%;
+}
+
+.space{
+	flex: 10%;
+}
+
+.space2{
+	flex: 5%;
+}
+
+.buttonDiv1{
+	align-self: center;
+	/*width: 25%;*/
+	display: flex;
+	/*margin-left: 35%;*/
+	margin-top: -15px;
+	
+}
+
+.navbar{
+	width: 320px;
+	/*height: 75px;*/
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+	  display: flex;
+  /*margin-bottom: 20px;*/
+  position: fixed;
+  top: 0; right: 0; left: 0;
+  /*z-index: 25;*/
+  flex-direction: row;
+  flex-flow: wrap; 
+ align-content: space-around;
+	justify-content: center;
+}
+
+.home{
+	flex: 6;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana;
+	text-decoration: none;
+	margin-left: 5%;
+	/*margin-left: 75px;*/
+	font-size: 15px;
+}
+
+.logout{
+	flex: 1;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 15px;
+}
+
+.logout:hover{color: #71C4E5;}
+
+.track{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	display: flex;
+	margin-top: 3%;
+	text-align: center;
+	justify-content: center;
+	/*position: fixed;*/
+	width: 90%;
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 8px;
+}
+
+.logo3{
+	margin-top: 60px;
+	width: 350px;
+	margin-right: 20px;
+}
+
+.counterDiv{
+	width: 100%;
+	margin-top: 20px;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+  	/*position: fixed;*/
+}
+
+.counter{
+	border-radius: 60px;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-left:50px;
+	margin-right:50px;
+	font-family: Verdana;
+	font-weight: bold;
+	border: none;
+}
+
+.counter1{
+	border-radius: 60px;
+	width: 70px;
+	height: 70px;
+	font-size: 30px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top: 0px;
+	padding: 5%;
+	margin-bottom: 2px;
+	font-family: Verdana;
+	font-weight: bold;
+	border: none;
+	background-color: white;
+}
+
+.causes{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.navButtons{
+	margin-top: 15px;
+	margin-left:8px;
+	width: 100%;
+}
+
+.navButtons2{
+	/*margin-top: -25px;*/
+	margin-top: 11%;
+	margin-left:4%;
+	width: 100%;
+}
+
+.audio{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: none;
+	font-size: 10px;
+	font-family: Verdana;
+	padding: 3px;
+	text-decoration: none;
+	margin-left: 15px;
+	height: 20px;
+	width: 150px;
+	margin-top: 125px;
+	margin-bottom: -10px;
+}
+
+.navButtons3{
+	margin-top: 450px;
+	margin-left: 75px;
+	width: 100%;
+}
+
+.navButtons4{
+	margin-top: -25px;
+	margin-left: 800px;
+	width: 100%;
+}
+
+
+.sendToDoc{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: none;
+	font-size: 10px;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	margin-left: 70px;
+}
+
+.sendToDoc:hover{
+	color: #71C4E5;
+}
+
+.small{
+	width: 300px;
+	margin-left: 17px;
+	margin-bottom: -60px;
+}
+
+.form1{
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-style: none;
+	font-size: 15px;
+}
+
+.form1A{
+	display: flex;
+	margin-left: 10px;
+	width: 300px;
+	margin-top: 50px;
+}
+
+.form1B{
+	display: flex;
+	margin-left: 10px;
+	width: 250px;
+}
+
+.checkboxes{
+	margin-top: 20px;
+	margin-left: 20px;
+	line-height: 5px;
+}
+
+.checkLabel{
+	color: white;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+ input[type=checkbox] {
+  transform: scale(1.5);
+
+}
+
+.relax{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	color: white;
+	font-size: 10px;
+	margin-top: -80px;
+	margin-left: -8px;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.navButtons5{
+	margin-top: 680px;
+	margin-left: 75px;
+	width: 100%;
+}
+
+.navButtons6{
+	margin-top: -35px;
+	margin-left: 850px;
+	width: 100%;
+}
+
+.input2{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+    width: 143px;
+}
+
+.input3{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+    width: 200px;
+}
+
+.input4{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+    width: 150px;
+}
+
+.navButtons7{
+	margin-top: 75px;
+	margin-left: 37px;
+	width: 100%;
+}
+
+.navButtons8{
+	margin-top: -25px;
+	margin-left: 890px;
+	width: 100%;
+}
+
+	
+.error-message{
+	font-weight: normal;
+	color: white;
+	margin-top: 200px;
+	text-align: center;
+	border-style: none;
+	font-size: 5px;
+	width: 70%;
+}
+
+
+
