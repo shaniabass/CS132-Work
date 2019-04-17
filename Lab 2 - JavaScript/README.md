@@ -1,0 +1,1 @@
+- Please open this in Google Chrome via the index.html file

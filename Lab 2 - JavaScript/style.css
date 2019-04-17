@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #ff9900;
+  width: 100%;
+  font-family: "Arial",Helvetica,Arial,sans-serif;
+}/* TODO: write CSS here */
+
+h1{
+	text-align: center;
+	color: #6600cc;
+	font-weight: 700;
+}
+
+p{
+	color: black;
+	font-weight: 700;
+}
+
+ul{
+	list-style-type: none;
+	line-height: 3;
+	font-weight: 600;
+	color: white;
+}
+
+.submit {
+ font-weight: bold;
+	background-color: #6600cc; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+	align-self: center;
+	border-radius: 50%;
+}
+
+.submit:hover {
+    color: #ff9900;
+}
+
